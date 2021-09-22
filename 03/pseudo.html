@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line{
+            color: greenyellow;
+            text-decoration: underline;
+        }
+        h6::first-letter{
+            font-size: 50px;
+            font-weight: bold;
+        }
+        h6::before{
+          content: url(../images\ \(9\).jpg);
+        }
+       /* p.box::selection{
+            background-color: blue;
+            color:burlywood;
+            cursor: col-resize;
+        }*/
+        li:first-child span{
+            background: slategrey;
+            color: black;
+            padding: 0 6px 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1>first-line pseudo element use:</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis nesciunt quaerat quisquam in libero, sit veritatis est fugiat sunt quos illo sapiente, iste, ea cumque qui iusto ab doloremque placeat debitis necessitatibus. Consequuntur autem voluptates eaque, reiciendis, similique consequatur, reprehenderit ut temporibus rem accusantium expedita alias delectus ipsum amet voluptatem.</p>
+    <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea ducimus exercitationem provident unde error quod in vero itaque corporis, laborum, temporibus iste architecto corrupti odio deserunt vel nostrum consectetur quam. Magnam, quibusdam odit. Quae sit est ducimus doloremque mollitia. Deserunt exercitationem et, numquam iure cupiditate quisquam incidunt nemo eaque voluptatibus!</h6>
+    <p class="box" >
+        <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est omnis rem hic, eius accusamus deleniti obcaecati, quia cum nemo voluptatem laborum veniam natus ratione iste in fuga nobis cupiditate? Eveniet soluta consequatur ipsum itaque maxime architecto excepturi quia numquam quibusdam cum, dolor fugiat quam, cupiditate rem facere quae velit voluptas? Ratione ducimus sit recusandae nam officiis. Praesentium provident repudiandae porro.</i>
+    </p>
+    <ul>
+        <li> lipo <span>Lipi</span></li>
+        <li>komola <span>kanto</span></li>
+    </ul>
+    <ol> 
+        <li>Nargis<span>ammu</span></li>
+        <li>kulsom <span>sarnalir ammu</span></li>
+    </ol>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> <style>
+        div ~ p {
+          background: green;
+          color: white;
+          border: 3px dotted red;
+        }
+        </style>
+</head>
+<body>
+    <div>
+        <p>এই প্যারাগ্রাফটি div এর চাইল্ড তাই এটি সিলেক্ট হবে না।</p>
+        <p>এই প্যারাগ্রাফটওি div এর চাইল্ড তাই এটিও সিলেক্ট হবে না।</p>
+        <span><p>এই প্যারাগ্রাফটি div এর উত্তরসূরী তাই এটি সিলেক্ট হবে না।</p></span>
+      </div>
+    
+      <p>এই প্যারাগ্রাফটি div এর সাধারণ সহোদর(genaral sibling) তাই এটি সিলেক্ট হবে।</p> 
+      <p>এই প্যারাগ্রাফটিও div এর সাধারণ সহোদর(genaral sibling) তাই এটিও সিলেক্ট হবে।</p>
+    
+</body>
+</html>
